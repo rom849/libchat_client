@@ -9,7 +9,8 @@ using System.Collections;
 using System.Collections.Generic;
 //
 namespace libchat2
-{
+{48BRN3o23IOP
+
 	public class MyClass
 	{
 		public Socket sock;
