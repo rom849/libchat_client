@@ -7,7 +7,7 @@ using System.IO;
 using System.Net;
 using System.Collections;
 using System.Collections.Generic;
-
+//
 namespace libchat2
 {
 	public class MyClass
@@ -20,7 +20,8 @@ namespace libchat2
 				 host = IPAddress.Parse(IP);
 			}
 			catch{
-				//Console.WriteLine (Dns.GetHostEntry (IP).AddressList[0].ToString ());
+				//Console.WriteLine (Dns.GetHostEntry (IP).AddressList[0].ToString ()); //48BRN3o23IOP
+
 				host = IPAddress.Parse(Dns.GetHostEntry(IP).AddressList[0].ToString());
 			}
 			IPEndPoint hostep = new IPEndPoint(host, PORT);
